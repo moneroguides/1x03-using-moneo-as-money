@@ -8,7 +8,7 @@
 
 Hello again adventurers. Welcome to the third video in this series; "Using Monero as Money".
 
-In this video we will be setting up a wallet, acquiring Monero and then spending it!
+In this video we will be setting up a wallet, acquiring Monero and then spending it.
 
 So let's get going!
 
@@ -17,16 +17,16 @@ So let's get going!
 
 In order to use Monero we need a specialised piece of software called a wallet. This software is the interface between us and the Monero network.
 
-As with all software, there are a few options to choose from. Which wallet is right for you depends on a few factors including which piece of hardware you are using. A nice list of available wallets can be found on the [Get Monero](https://www.getmonero.org/downloads) website. 
+As with all software, there are a few options to choose from. Which wallet is right for you depends on a few factors including which piece of hardware you are using. A nice list of available wallets can be found on the [GetMonero](https://www.getmonero.org/downloads) website. 
 
-To start with we're going to look at Feather wallet, the downloads for which can be found on the [official site](https://featherwallet.org/download/) and the [git page](https://git.featherwallet.org/feather/feather).
+In this video we're going to be looking at Feather wallet, the downloads for which can be found on the [official site](https://featherwallet.org/download/) and the [git page](https://git.featherwallet.org/feather/feather).
 
-If you've been following this series from the beginning please now download and verify the wallet for your OS. If you've arrived directly to this video. Please take a look at the first video in this series entitled "Importing public keys and verifying hashes".
+If you've been following this series from the beginning please go ahead; download and verify the wallet for your OS. If you've arrived directly to this video. Please take a look at the first video in this series entitled "Importing public keys and verifying hashes".
 
 
 ### CONNECTING TO THE MONERO NETWORK
 
-If you're a windows user you should have now installed feather wallet and it should be ready to go. If you're a linux user, you may find that you have to grant permission for either the appimage or executable to be used. 
+If you're a windows user you should have now installed feather wallet and it should be ready to go. If you're a linux user, you may find that you have to grant permission for either the appimage or executable. 
 
 Open a terminal window and navigate to the folder containing the file. Next, type `sudo chmod +x f` and use 'TAB' to complete the line. Next type `./f` once again complete the line using 'TAB' and then hit 'enter'.
 
@@ -34,23 +34,23 @@ When Feather starts for the first time you will be greeted by a welcome and opti
 
 If you followed all the steps in the last video you should now choose "Select node manually". By default your localhost IP address is filled in, along with the default port for Monero [RPC calls](https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc). 
 
-We are using our wallet software on the same machine as the node, so we'll leave everything on the default settings. If you are using a different computer on the same network, you will need to select the local IP address of the machine hosting the node.
+We are using our wallet software on the same machine as the node, so we'll leave everything on the default settings. If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with "192.168".
 
 If you were unable to follow all the steps from the second video please select "Auto connect". This will instruct Feather to connect you to one of its preselected nodes.
 
 After selecting the appropriate connection method click "Next".
 
-We are now going to select how Feather will route its network traffic. 
+Now we're now going to select how Feather will route its network traffic. 
 
-The default settings will ask Feather to use tor for its functions. However if you are using the "Auto connect" option Feather will initially connect to a node using traditional methods. 
+The default settings will tell Feather to use tor for its functions. However if you are using the "Auto connect" option Feather will initially connect to a node using traditional methods. 
 
-As discussed in the second video in this series, this node will be able to see your IP address and your synchronisation height. You will also allow your internet service provider to see that you are connecting to a Monero service.
+As discussed in the second video in this series, this node will be able to see your IP address and your synchronisation height. Additionally, you will also allow your internet service provider to see that you are connecting to a Monero service.
 
 The initial synchronisation can take some time over tor, which is why the default settings are configured this way. If you wish to keep your activities and IP address private you should first select "Configure manually" and then "Route all traffic over tor".
 
 If you are connecting to your own local node you may use the default settings without any worry. However, selecting "Route all traffic over tor" can be used as a fail-safe option. This is what we will be doing.
 
-Now we've configured our network settings it's time to move on to generating our seed phrase. Go ahead and select "Next".
+Now that we've configured our network settings it's time to move on to generating our seed phrase. Go ahead and select "Next".
 
 
 ### GENERATING YOUR SEED PHRASE
@@ -61,7 +61,7 @@ As we hit "Next", Feather randomly generates a list of 14 words known as a seed 
 
 Opposed to the more common 25 word phrase used for Monero keys, this 14 word format enables the automatic storage of another important piece of information, the "restore height". 
 
-The "restore height" is a record of when your key pair was created. This is important for when you want to restore your private keys to a new wallet. For more information on the seed scheme used by Feather, please take a look at the [documentation](https://docs.featherwallet.org/guides/seed-scheme).
+The "restore height" is a record of when your key pair was created. This is important for when you want to restore your keys to a new wallet. For more information on the seed scheme used by Feather, please take a look at the [documentation](https://docs.featherwallet.org/guides/seed-scheme).
 
 You can regenerate this phrase as many times as you like and when you're happy you should make a record. We suggest you take the time to write these words down on a piece of paper. Be careful to note the order and make it legible. If you ever loose access to your hardware and have written your seed phrase down incorrectly, your funds may well be lost.
 
@@ -84,28 +84,28 @@ To start with we're going to turn our attention to tool bar at the bottom of the
 
 This window shows us which node we are connected, the synchronisation status and some traffic information. If all is well you should see the the phrase "Synchronised" and evidence of data traffic. Click "OK" to exit.
 
-Next, let's click on the settings icon. Here we can access some on the basic options including: preferred fiat currency, appearance, node list and data paths. I'm going to leave these all alone for now, but i suggest you take a good look through the options. When you're finished making your adjustments, click "OK".
+Next, let's click on the settings icon. Here we can access some on the basic options including: preferred fiat currency, appearance, node list and data paths. I'm going to leave these all alone for now, but we suggest you take a good look through the options. When you're finished making your adjustments, click "OK".
 
 
 ### ACQUIRING FUNDS
 
-As you can see our current balance is 0, this means that we don't own any outputs on the monero blockchain.
+As you can see our current balance is 0, this means that we don't own any outputs on the Monero blockchain.
 
 Let's change that.
 
-There are two methods for acquiring Monero, they are mining and trading. For the purpose of this video we will be trading fiat money for Monero using a service called [localmonero](https://localmonero.co). There are of course many other ways to trade, if you're interested in exploring some of them check out the GetMonero [Merchants](https://www.getmonero.org/community/merchants/) page.
+There are two dominant methods for acquiring Monero, they are mining and trading. For the purpose of this video we will be trading fiat money for Monero using a service called [localmonero](https://localmonero.co). There are of course many other ways to trade, if you're interested in exploring some of them check out the GetMonero [Merchants](https://www.getmonero.org/community/merchants/) page.
 
-We are going to access localmonero using tor. We would encourage you to do the same. If you don't already have the tor browser please download it now. Remember, make sure you [verify your downloads](https://support.torproject.org/tbb/how-to-verify-signature/).
+We are going to access localmonero using tor. We encourage you to do the same. If you don't already have the tor browser on your machine please download it now. Remember, make sure you [verify your downloads](https://support.torproject.org/tbb/how-to-verify-signature/).
 
 We're going to search for local buyers who accept cash via mail or in person. This may not suit everyone, however we want to maintain our anonymity by trading with someone who is not interested in our identity. You will of course need an account before trading, so click on the rocket ship icon to learn how the whole process works.
 
 Before we go any further, we will need a destination address for the other party to transfer funds. To generate an address we need to go back to Feather and click on the receive tab.
 
-At present there are two different types of address used in the Monero ecosystem. Primary addresses, which begin with the number 4 and sub-addresses which begin with the number 8. These addresses are derived from your keys and cannot be used by anyone else to receive funds.
+At present there are two different types of address used in the Monero ecosystem. Primary addresses, which begin with the number 4 and sub-addresses which begin with the number 8. These addresses are derived from your keys and cannot be used by anyone else.
 
 It's possible to generate many sub addresses. This is great for increasing anonymity and generally speaking it's good practice to use a different sub-address for each sender. Let's generate a sub-address now using the "Create new address" button.
 
-If we "right click" on this new address we have a few options, one of which is "edit label". I'm going to select this option and enter "localmonero-" followed by the user name of the trader whom we will deal with later. Now, when Monero is sent to this address Feather will add "localmonero-*" to the description, making it simple to identify where the funds have come from. 
+If we "right click" on this new address we have a few options, one of which is "edit label". I'm going to select this option and enter "localmonero-" followed by the user name of the trader whom we will deal with. Now when Monero is sent to this address Feather will add "localmonero-*" to the description, making it simple to identify where the funds have come from. 
 
 This is far as we go in this video. When you have completed your trade and have funds available in your account, please move onto the next section.
 
@@ -126,7 +126,7 @@ Now that we have this definition, we can more easily understand transactions. Ev
 
 Inputs consist of one or more owned output. As owned outputs have fixed values, any number of them may be used as inputs to meet the required outputs.
 
-For regular transactions there will always be at least three outputs: the amount to be transferred, a miners fee and "change".
+For regular transactions there will always be at least three outputs: the amounts to be transferred, a miners fee and "change".
 
 Change is the remaining Monero after deductions have been made for the specified outputs and miner fee. Even if there is no remainder, there will still be an output with a value of 0. This is to make all transactions on the Monero blockchain indistinguishable.
 
