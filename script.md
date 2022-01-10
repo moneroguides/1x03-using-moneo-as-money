@@ -3,6 +3,7 @@
 * gpg2 (Linux)
 * Kleopatra/gpg4win (windows)
 
+.....................................................
 
 ### INTRO
 
