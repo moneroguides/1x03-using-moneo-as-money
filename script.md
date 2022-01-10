@@ -174,11 +174,13 @@ You may have noticed that your balance has been equal to 0 for some time after y
 
 Presently all outputs from a transaction are locked for a total of 10 blocks after their initial confirmation. This is built into the protocol and is required to ensure security and stability.
 
-This means that any change you may be owed will be remain unavailable for approximately 20 minuets after your transaction. This is one of the major differences between fiat money and Monero and is something that developers aim to remove in time.
+This means that any change you may be owed will be remain unavailable for approximately 20 minuets after your transaction. This is one of the major differences between fiat money and Monero and is something that developers hope to remove.
 
-If you plan to make multiple transactions in quick succession it is advisable to use the "pay to many" function which can be found under the "Tools" tab or, you create multiple outputs for those purposes.
+If you plan to make multiple transactions in quick succession it is advisable to either use the "pay to many" function which can be found under the "Tools" tab or, you generate multiple outputs.
 
-Let's navigate back to the "Coins" tab. If we 'right click' on the owned output we have the option to "Sweep output". We can select "Send to self" and then specify the number of outputs. This is one of the only times you would use your primary address and Feather does this automatically. It will now generate the specified number of outputs, with an equal amount of Monero in each.
+Let's navigate back to the "Coins" tab. If we 'right click' on the owned output we have the option to "Sweep output". We can then select "Send to self" and specify the number of outputs. In this case I want to seperate this into 5 outputs; which is equivilent to splitting a €100 note into 5 €20 notes.
+
+This is one of the only times you would use your primary address and Feather does this automatically. It will now generate the specified number of outputs, with an equal amount of Monero in each.
 
 Upon confirming the transaction you will see the history logged to the wallet file. Once the transaction has been confirmed on the blockchain the outputs will become visible once again in the "Coins" tab.
 
