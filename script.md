@@ -178,7 +178,7 @@ This means that any change you may be owed will be remain unavailable for approx
 
 If you plan to make multiple transactions in quick succession it is advisable to either use the "pay to many" function which can be found under the "Tools" tab or, you generate multiple outputs.
 
-Let's navigate back to the "Coins" tab. If we 'right click' on the owned output we have the option to "Sweep output". We can then select "Send to self" and specify the number of outputs. In this case I want to seperate this into 5 outputs; which is equivilent to splitting a €100 note into 5 €20 notes.
+Let's navigate back to the "Coins" tab. If we 'right click' on the owned output we have the option to "Sweep output". We can then select "Send to self" and specify the number of outputs. In this case I want to seperate this into 5 outputs; which is equivilent to splitting a €100 note into five €20 notes.
 
 This is one of the only times you would use your primary address and Feather does this automatically. It will now generate the specified number of outputs, with an equal amount of Monero in each.
 
