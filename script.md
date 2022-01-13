@@ -33,11 +33,13 @@ Open a terminal window and navigate to the folder containing the file. Next, typ
 
 When Feather starts for the first time you will be greeted by a welcome and options window. This is where you choose the node that your wallet will connect to. 
 
-If you followed all the steps in the last video you should now choose "Select node manually". By default your localhost IP address is filled in, along with the default port for Monero [RPC calls](https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc). 
+If you followed all the steps in the last video you should now choose "Select node manually". By default your localhost IP address is filled in, along with the default port for Monero [RPC calls](https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc). We are using our wallet software on the same machine as the node, so we'll leave everything on the default settings. 
 
-We are using our wallet software on the same machine as the node, so we'll leave everything on the default settings. We encourage you to do the same, as in the next video we'll be covering alternative connection methods.
+If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with "192.168" and can be found in your network settings. 
 
-If you were unable to follow all the steps from the second video please select "Auto connect". This will instruct Feather to connect you to one of its preselected nodes.
+To connect to the daemon you will need to edit the firewall rules on the machine hosting your node. The dfault port for RPC calls is **18083**. Please follow the instructions from the second video to forward this port; it is not necessary to edit the firewall rules on your router at this point.
+
+If you were unable to set up your own node during the second video please select "Auto connect". This will instruct Feather to connect you to one of its preselected nodes.
 
 After selecting the appropriate connection method click "Next".
 
