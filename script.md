@@ -37,17 +37,17 @@ If you followed all the steps in the last video you should now choose "Select no
 
 If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with "192.168" and can be found in your network settings. 
 
-To connect to the daemon you will need to edit the firewall rules on the machine hosting your node. The dfault port for RPC calls is **18081**. Please follow the instructions from the second video to forward this port; it is not necessary to edit the firewall rules on your router at this point.
+To connect to the daemon you will need to edit the firewall rules on the machine hosting your node. The default port for RPC calls is **18081**. Please follow the instructions from the second video **Setting up your own node** to forward this port; it is not necessary to edit the firewall rules on your router at this point.
 
-If you were unable to set up your own node during the second video please select "Auto connect". This will instruct Feather to connect you to one of its preselected nodes.
+If you were unable or did not want to set up your own node during the second video please select "Auto connect". This will instruct Feather to connect you to one of its preselected nodes.
 
 After selecting the appropriate connection method click "Next".
 
 Now we're now going to select how Feather will route its network traffic. 
 
-The default settings will tell Feather to use tor for its functions. However if you are using the "Auto connect" option Feather will initially connect to a node using traditional methods. 
+The default settings will tell Feather to use tor for its functions. However if you are using the "Auto connect" option Feather will initially connect to a node using traditional methods.
 
-As discussed in the second video in this series, this node will be able to see your IP address and your synchronisation height. Additionally, you will also allow your internet service provider to see that you are connecting to a Monero service.
+As mentioned in the second video in this series, this will reveal potentially sensitive information to the nodes host and will reveal to ISP, a connection to the Monero network.
 
 The initial synchronisation can take some time over tor, which is why the default settings are configured this way. If you wish to keep your activities and IP address private you should first select "Configure manually" and then "Route all traffic over tor".
 
