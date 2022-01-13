@@ -35,7 +35,7 @@ When Feather starts for the first time you will be greeted by a welcome and opti
 
 If you followed all the steps in the last video you should now choose "Select node manually". By default your localhost IP address is filled in, along with the default port for Monero [RPC calls](https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc). 
 
-We are using our wallet software on the same machine as the node, so we'll leave everything on the default settings. If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with "192.168".
+We are using our wallet software on the same machine as the node, so we'll leave everything on the default settings. We encourage you to do the same, as in the next video we'll be covering alternative connection methods.
 
 If you were unable to follow all the steps from the second video please select "Auto connect". This will instruct Feather to connect you to one of its preselected nodes.
 
