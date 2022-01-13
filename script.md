@@ -37,7 +37,7 @@ If you followed all the steps in the last video you should now choose "Select no
 
 If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with "192.168" and can be found in your network settings. 
 
-To connect to the daemon you will need to edit the firewall rules on the machine hosting your node. The dfault port for RPC calls is **18083**. Please follow the instructions from the second video to forward this port; it is not necessary to edit the firewall rules on your router at this point.
+To connect to the daemon you will need to edit the firewall rules on the machine hosting your node. The dfault port for RPC calls is **18081**. Please follow the instructions from the second video to forward this port; it is not necessary to edit the firewall rules on your router at this point.
 
 If you were unable to set up your own node during the second video please select "Auto connect". This will instruct Feather to connect you to one of its preselected nodes.
 
