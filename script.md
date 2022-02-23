@@ -22,7 +22,7 @@ In order to use Monero we need a specialised piece of software called a wallet. 
 
 As with all software, there are a few options to choose from. Which wallet is right for you depends on a few factors including which piece of hardware you are using. A nice list of available wallets can be found on the [GetMonero](https://www.getmonero.org/downloads) website. 
 
-In this video we're going to be looking at *Feather wallet*, the downloads for which can be found on the [official site](https://featherwallet.org/download/) and the [git page](https://git.featherwallet.org/feather/feather).
+In this video we're going to be looking at **Feather wallet**, the downloads for which can be found on the [official site](https://featherwallet.org/download/) and the [git page](https://git.featherwallet.org/feather/feather).
 
 If you've been following this series from the beginning please download and verify the wallet for your OS. If you've arrived directly to this video. Please take a look at the first video in this series: *Importing Public Keys and Verifying Hashes*.
 
@@ -45,9 +45,9 @@ When Feather starts for the first time you will be greeted by a welcome and opti
 
 If you followed all the steps in the last video you should now choose *Select node manually*. By default your localhost IP address is filled in, along with the default port for Monero [RPC's](https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc). We are using our wallet software on the same machine as the node, so we'll leave everything on the default settings. 
 
-If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with *192.168* and can be found in your network settings. 
+If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with **192.168** and can be found in your network settings. 
 
-To connect to the daemon you will need to edit the firewall rules on the machine hosting your node. The default port for RPC's is `18081`. Please follow the instructions from the second video **Setting up your own Node**  To forward this port, it is not necessary to edit the firewall rules on your router at this point.
+To connect to the daemon you will need to edit the firewall rules on the machine hosting your node. The default port for RPC's is `18081`. Please follow the instructions from the second video *Setting up your own Node*.  It is not necessary to edit the firewall rules on your router at this point.
 
 If you were unable or did not want to set up your own node during the second video please select *Auto connect*. This will instruct Feather to connect you to one of its preselected nodes.
 
@@ -55,9 +55,9 @@ After selecting the appropriate connection method click *Next*.
 
 Now we're now going to select how Feather will route its network traffic. 
 
-The default settings will tell Feather to use Tor for its functions. However if you are using the **auto connect option** Feather will initially connect to a node using traditional methods.
+The default settings will tell Feather to use Tor for its functions. However if you are using the *auto connect option* Feather will initially connect to a node using traditional methods.
 
-As mentioned in the second video in this series, this will reveal potentially sensitive information to the node's host and **will reveal a connection to the Monero network to your ISP** (Internet Service Provvider)
+As mentioned in the second video in this series, this will reveal potentially sensitive information to the node's host and ***will reveal a connection to the Monero network to your ISP*** (Internet Service Provvider)
 
 The initial synchronisation can take some time over Tor, which is why the default settings are configured this way. If you wish to keep your activities and IP address private you should first select *Configure manually* and then *Route all traffic over Tor*.
 
@@ -95,7 +95,7 @@ For a full list of its features and a comparison table check out the Feather [do
 
 To start with we're going to turn our attention to the tool bar at the bottom of the window. On the right, we can see our current balance and a green circle. Click *the green circle*. 
 
-This window shows us the node we are connected to, the synchronisation status and some traffic information. If all is well you should see the phrase **Synchronised** and evidence of data traffic. Click *OK* to exit.
+This window shows us the node we are connected to, the synchronisation status and some traffic information. If all is well you should see the phrase **`Synchronised`** and evidence of data traffic. Click *OK* to exit.
 
 Next, let's click the *Settings icon*. Here we can access some of the basic options including: preferred fiat currency, appearance, node list and data paths. I'm going to leave these all alone for now, but we suggest you take a good look through the options. When you're finished making your adjustments, click *OK*.
 
@@ -110,11 +110,11 @@ There are two dominant methods for acquiring Monero, they are mining and trading
 
 We are going to access LocalMonero using Tor. We encourage you to do the same. If you don't already have the Tor browser on your machine please download it now. Remember, make sure you [verify your downloads](https://support.torproject.org/tbb/how-to-verify-signature/).
 
-We're going to search for local buyers who accept cash via mail or in person. This may not suit everyone, however we want to maintain our anonymity by trading with someone who is not interested in our identity. You will of course need an account before trading, so click on the **Rocket ship icon** to learn how the whole process works.
+We're going to search for local buyers who accept cash via mail or in person. This may not suit everyone, however we want to maintain our anonymity by trading with someone who is not interested in our identity. You will of course need an account before trading, so click on the *Rocket ship icon* to learn how the whole process works.
 
 Before we go any further, we will need a destination address for the other party to transfer funds. To generate an address we need to go back to Feather and click on the **Receive** tab.
 
-At present there are two different types of address used in the Monero ecosystem. Primary addresses, which begin with the number 4 and sub-addresses which begin with the number 8. These addresses are derived from your keys and cannot be used by anyone else.
+At present there are two different types of address used in the Monero ecosystem. Primary addresses, which begin with the number `4` and sub-addresses which begin with the number `8`. These addresses are derived from your keys and cannot be used by anyone else.
 
 It's possible to generate many sub addresses. This is great for increasing anonymity and generally speaking it's good practice to use a different sub-address for each sender. Let's generate a sub-address now using the *Create new address* button.
 
@@ -124,7 +124,7 @@ If we right-click on this new address we have a few options, one of which is *Ed
 
 followed by the user name of the trader whom we will deal with. 
 
-Now when Monero is sent to this address Feather will add *localmonero-* to the description, making it simple to identify where the funds have come from. 
+Now when Monero is sent to this address Feather will add **`localmonero-`** to the description, making it simple to identify where the funds have come from. 
 
 This is as far as we go in this video. When you have completed your trade and have funds available in your account, please move onto the next section.
 
@@ -133,7 +133,7 @@ This is as far as we go in this video. When you have completed your trade and ha
 
 As you can see, we managed to complete our first successful trade. We hope you were able to do the same without trouble.
 
-To continue, let's add a new tab to the tool bar. To do so, select *View* and then *Show Coins*. The *Coins* tab lists all the unspent outputs which are owned by your keys. If we right-click on this output and select *Details* we can get all sorts of interesting information. Here we can see the address it was sent to, its current status, the amount sent and blockchain height.
+To continue, let's add a new tab to the toolbar. To do so, select *View* and then *Show Coins*. The *Coins* tab lists all the unspent outputs which are owned by your keys. If we right-click on this output and select *Details* we can get all sorts of interesting information. Here we can see the address it was sent to, its current status, the amount sent and blockchain height.
 
 If we now head over to the *Receive* tab, we can see that the address we created before the trade has now been removed. This is a handy feature built into Feather to prevent address reuse.
 
@@ -147,7 +147,7 @@ Inputs consist of one or more owned output. As owned outputs have fixed values, 
 
 For regular transactions there will always be at least three outputs: the amounts to be transferred, a miners fee and a term called **change**.
 
-**Change** is the remaining Monero after deductions have been made for the specified outputs and miner fee. Even if there is no remainder, there will still be an output with **a value of `0`**. This is to make all transactions on the Monero blockchain indistinguishable.
+Change is the remaining Monero after deductions have been made for the specified outputs and miner fee. Even if there is no remainder, there will still be an **output with a value of `0`**. This is to make all transactions on the Monero blockchain indistinguishable.
 
 Monero is a privacy-preserving protocol, which means all of this information is encoded and obfuscated. If you are interested in more details please visit the GetMonero [library](https://www.getmonero.org/library/).
 
@@ -169,7 +169,7 @@ A new window will now open, let's select *Advanced* and have a look at what's go
 
 If everything looks good, we can finalise the transaction by clicking *Send* once more.
 
-Once the transaction has been confirmed on the blockchain, the proxystore's web page will update and the voucher code will be made available. The current average block time is around 2 minutes, so you shouldn't have to wait very long at all.
+Once the transaction has been confirmed on the blockchain, the proxystore's web page will update and the voucher code will be made available. The current average block time is around two minutes, so you shouldn't have to wait very long at all.
 
 
 ### TRANSACTION IDs AND PAYMENT CONFIRMATION
@@ -190,11 +190,11 @@ Anyone with access to this transaction proof will be able to see both the receiv
 
 You may have noticed that your balance has been equal to zero for some time after your transaction. There is a good reason for this.
 
-Presently all outputs from a transaction are locked for a total of 10 blocks after their initial confirmation. This is built into the protocol and is required to ensure security and stability.
+Presently all outputs from a transaction are locked for a total of ten blocks after their initial confirmation. This is built into the protocol and is required to ensure security and stability.
 
-This means that any change you may be owed will be remain unavailable for approximately 20 minutes after your transaction. This is one of the major differences between fiat money and Monero and is something that developers hope to remove.
+This means that any change you may be owed will be remain unavailable for approximately twenty minutes after your transaction. This is one of the major differences between fiat money and Monero and is something that developers hope to remove.
 
-If you plan to make multiple transactions in quick succession it is advisable to either use the **pay to many** function which can be found under the *Tools* tab or, you generate multiple outputs.
+If you plan to make multiple transactions in quick succession it is advisable to either use the **pay to many function** that can be found under the *Tools* tab or, you generate multiple outputs.
 
 Let's navigate back to the *Coins* tab. If we right-click on the owned output we have the option to *Sweep output*. We can then select *Send to self* and specify the number of outputs. In this case I want to seperate this into 5 outputs, which is equivilent to splitting a €100 note into five €20 notes.
 
