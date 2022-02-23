@@ -2,7 +2,7 @@
 
 ## PREREQUISITES
 
-* gpg (Linux)
+* GPG (Linux)
 * Kleopatra  /gpg4win (Windows)
 * Local Monero Node (optional)
 
