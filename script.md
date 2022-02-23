@@ -4,6 +4,7 @@
 
 * gpg (Linux)
 * Kleopatra  /gpg4win (Windows)
+* Local Monero Node (optional)
 
 <hr/>
 
