@@ -2,7 +2,7 @@
 
 ## PREREQUISITES
 
-* gpg2 (Linux)
+* gpg (Linux)
 * Kleopatra  /gpg4win (Windows)
 
 <hr/>
