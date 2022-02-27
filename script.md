@@ -3,29 +3,29 @@
 ## PREREQUISITES
 
 * GPG (Linux)
-* Kleopatra  /gpg4win (Windows)
+* Kleopatra / gpg4win (Windows)
 * Local Monero Node (optional)
 
 <hr/>
 
 ### INTRO
 
-Hello again adventurers. Welcome to the third video in this series:  **Using Monero as Money**
+Hello again adventurers. Welcome to the third video in the MoneroGuides video series:  **Using Monero as Money**
 
-In this video we will be setting up a wallet, acquiring Monero and then spending it.
+In this video we will be setting up a wallet, obtaining some juicy Monero and spending it like cash money
 
 So let's get going!
 
 
 ### CHOOSING YOUR WALLET
 
-In order to use Monero we need a specialised piece of software called a wallet. This software is the interface between us and the Monero network.
+According to the good folks at Moneropedia, a [wallet](https://www.getmonero.org/resources/moneropedia/wallet.html) holds the information needed to send and receive Monero privately and securely from the blockchain
 
-As with all software, there are a few options to choose from. Which wallet is right for you depends on a few factors including which piece of hardware you are using. A nice list of available wallets can be found on the [GetMonero](https://www.getmonero.org/downloads) website. 
+As with all software, you've got several great options to choose from. Picking the right wallet depends on several factors, starting with your choice of hardware and operating system. A nice list of available wallets can be found at [GetMonero](https://www.getmonero.org/downloads) website. 
 
-In this video we're going to be looking at **Feather wallet**, the downloads for which can be found on the [official site](https://featherwallet.org/download/) and the [git page](https://git.featherwallet.org/feather/feather).
+In this video, we'll be using **Feather wallet on Linux**.  Grab the software on their [official site](https://featherwallet.org/download/) or via [Github](https://git.featherwallet.org/feather/feather).
 
-If you've been following this series from the beginning please download and verify the wallet for your OS. If you've arrived directly to this video. Please take a look at the first video in this series: *Importing Public Keys and Verifying Hashes*.
+If you've been following this series from the beginning, please download and verify the wallet for your OS now. If you've just joined us and feel confused, please start with the first video in our series: *Importing Public Keys and Verifying Hashes*.
 
 
 ### CONNECTING TO THE MONERO NETWORK
