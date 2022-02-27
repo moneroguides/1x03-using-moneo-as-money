@@ -32,7 +32,7 @@ If you've been following this series from the beginning, please download and ver
 
 
 
-### CONNECT TO THE MONERO NETWORK
+### CONNECTING TO THE MONERO NETWORK
 
 Windows users will be ready to connect right after installing Feather
 
