@@ -50,7 +50,7 @@ When Feather starts for the first time you will be greeted by the welcome screen
 Ready to get going?  Let's dive right in!
 
 
-### INITIALIZE YOUR WALLET
+### INITIALISING YOUR WALLET
 
 After following all the steps in the last video, you should be able to choose the *Select node manually* option
 
