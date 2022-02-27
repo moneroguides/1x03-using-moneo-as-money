@@ -64,7 +64,7 @@ To connect to the Monero daemon, you will need to edit the firewall rules on the
 
 Follow the instructions from our second video *Setting up your own Node*, for all the steps.  You don't need to edit the firewall rules on your router yet.
 
-If you won't be hosting your own node yet, please select the *Auto connect* option. This will instruct Feather to connect you to any one of its preselected nodes.
+If you aren't currently hosting your own node, please select the *Auto connect* option. This will instruct Feather to connect you to any one of its preselected nodes.
 
 After selecting the appropriate connection method click *Next*
 
