@@ -17,42 +17,59 @@ In this video we will be setting up a wallet, obtaining some juicy Monero and sp
 So let's get going!
 
 
-### CHOOSING YOUR WALLET
+### CHOOSE YOUR WALLET
 
 According to the good folks at Moneropedia, a [wallet](https://www.getmonero.org/resources/moneropedia/wallet.html) holds the information needed to send and receive Monero privately and securely from the blockchain
 
 As with all software, you've got several great options to choose from. Picking the right wallet depends on several factors, starting with your choice of hardware and operating system. A nice list of available wallets can be found at [GetMonero](https://www.getmonero.org/downloads) website. 
 
-In this video, we'll be using **Feather wallet on Linux**.  Grab the software on their [official site](https://featherwallet.org/download/) or via [Github](https://git.featherwallet.org/feather/feather).
+In this video, we'll be using **Feather wallet on Linux**.  Grab the software on their [official site](https://featherwallet.org/download/) or via [Github](https://git.featherwallet.org/feather/feather)
 
 If you've been following this series from the beginning, please download and verify the wallet for your OS now. If you've just joined us and feel confused, please start with the first video in our series: *Importing Public Keys and Verifying Hashes*.
 
 
-### CONNECTING TO THE MONERO NETWORK
 
-If you're a Windows user you should have now installed Feather wallet and it should be ready to go. If you're a Linux user, you may find that you have to grant permission for either the appimage or executable. 
 
-Open a terminal window and navigate to the folder containing the file. Next, type: 
 
-`sudo chmod +x f`
 
-and use *Tab* to complete the line. Next type:
+### CONNECT TO THE MONERO NETWORK
 
-`./f` 
+Windows users will be ready to connect right after installing Feather
 
-once again complete the line using *Tab* and then hit *Enter*.
+Linux users will likely need to grant permission for either the appimage or executable as follows:
 
-When Feather starts for the first time you will be greeted by a welcome and options window. This is where you choose the node that your wallet will connect to. 
+- Open a terminal window and change directory to the folder containing the file
+- Type `sudo chmod +x f`
+- *Tab* to complete the line
+- Type `./f` 
+- *Tab* to complete the line
+- Hit *Enter* to run
 
-If you followed all the steps in the last video you should now choose *Select node manually*. By default your localhost IP address is filled in, along with the default port for Monero [RPC's](https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc). We are using our wallet software on the same machine as the node, so we'll leave everything on the default settings. 
+When Feather starts for the first time you will be greeted by the welcome screen with connection options.  Here is where you will choose the Monero node that your wallet will eventually connect to. 
+
+Ready to get going?  Let's dive right in!
+
+
+### INITIALIZE YOUR WALLET
+
+After following all the steps in the last video, you should be able to choose the *Select node manually* option
+
+By default your localhost IP address is filled in, along with the default port for Monero [RPC's](https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc)
+
+Since we will be using our wallet software on the same machine as the  node, we can leave everything on the default settings for now
 
 If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with **192.168** and can be found in your network settings. 
 
-To connect to the daemon you will need to edit the firewall rules on the machine hosting your node. The default port for RPC's is `18081`. Please follow the instructions from the second video *Setting up your own Node*.  It is not necessary to edit the firewall rules on your router at this point.
+To connect to the Monero daemon, you will need to edit the firewall rules on the machine hosting your node. The default port for RPC's is `18081`.
 
-If you were unable or did not want to set up your own node during the second video please select *Auto connect*. This will instruct Feather to connect you to one of its preselected nodes.
+Follow the instructions from our second video *Setting up your own Node*, for all the steps.  You don't need to edit the firewall rules on your router yet.
 
-After selecting the appropriate connection method click *Next*.
+If you won't be hosting your own node yet, please select the *Auto connect* option. This will instruct Feather to connect you to any one of its preselected nodes.
+
+After selecting the appropriate connection method click *Next*
+
+// next section
+### NETWORK PRIVACY OPTIONS
 
 Now we're now going to select how Feather will route its network traffic. 
 
