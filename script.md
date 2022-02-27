@@ -23,7 +23,7 @@ According to the good folks at Moneropedia, a [wallet](https://www.getmonero.org
 
 As with all software, you've got several great options to choose from. Picking the right wallet depends on several factors, starting with your choice of hardware and operating system. A nice list of available wallets can be found at [GetMonero](https://www.getmonero.org/downloads) website. 
 
-In this video, we'll be using **Feather wallet on Linux**.  Grab the software on their [official site](https://featherwallet.org/download/) or on [Git](https://git.featherwallet.org/feather/feather).
+In this video, we'll be using **Feather wallet on Linux**.  Grab the software on their [official site](https://featherwallet.org/download/) or via [Github](https://git.featherwallet.org/feather/feather).
 
 If you've been following this series from the beginning, please download and verify the wallet for your OS now. If you've just joined us and feel confused, please start with the first video in our series: *Importing Public Keys and Verifying Hashes*.
 
