@@ -68,18 +68,22 @@ If you aren't currently hosting your own node, please select the *Auto connect* 
 
 After selecting the appropriate connection method click *Next*
 
-// next section
 ### NETWORK PRIVACY OPTIONS
 
-Now we're now going to select how Feather will route its network traffic. 
+Now we're going to select how Feather will route its network traffic. 
 
-The default settings will tell Feather to use Tor for its functions. However if you are using the *auto connect option* Feather will initially connect to a node using traditional methods.
+The default settings will tell Feather to use Tor for its functions. However if you are using the *Auto connect option* Feather will initially connect to a node using traditional clearnet methods.
 
-As mentioned in the second video in this series, this will reveal potentially sensitive information to the node's host and ***will reveal a connection to the Monero network to your ISP*** (Internet Service Provvider)
+As mentioned in the second video in this series, connecting to the Monero daemon over the clearnet will reveal potentially sensitive information to both:
 
-The initial synchronisation can take some time over Tor, which is why the default settings are configured this way. If you wish to keep your activities and IP address private you should first select *Configure manually* and then *Route all traffic over Tor*.
+- the node's host
+- ***your Internet Service Provider (ISP)***
 
-If you are connecting to your own local node you may use the default settings without any worry. However, selecting *Route all traffic over Tor* can be used as a fail-safe option. This is what we will be doing.
+The tradeoff for privacy is speed.  Tor network traffic is slower and the initial synchronisation will take a great deal longer over Tor.  That said, the default setting is to use Tor in order to keep your Monero activities and IP address private.
+
+Choose *Configure manually* and then *Route all traffic over Tor*
+
+If you are connecting to your own local node you may use the default settings without any worry. However, selecting *Route all traffic over Tor* can always be used as a fail-safe option. This is what we will be doing here today.
 
 Now that we've configured our network settings it's time to move on to generating our seed phrase. Go ahead and select *Next*.
 
@@ -111,11 +115,13 @@ Feather is a lightweight client. Unlike the official Monero wallet, it doesn't c
 
 For a full list of its features and a comparison table check out the Feather [documentation](https://docs.featherwallet.org/guides/features). We won't be delving into all the options now, so we urge you to do so after watching this video.
 
-To start with we're going to turn our attention to the tool bar at the bottom of the window. On the right, we can see our current balance and a green circle. Click *the green circle*. 
+To start with we're going to turn our attention to the tool bar at the bottom of the window. On the right, we can see our current balance and a green circle. 
 
-This window shows us the node we are connected to, the synchronisation status and some traffic information. If all is well you should see the phrase **`Synchronised`** and evidence of data traffic. Click *OK* to exit.
+Click *the green circle*. 
 
-Next, let's click the *Settings icon*. Here we can access some of the basic options including: preferred fiat currency, appearance, node list and data paths. I'm going to leave these all alone for now, but we suggest you take a good look through the options. When you're finished making your adjustments, click *OK*.
+This window shows us the node we are connected to, the synchronisation status and some traffic information. If all is well you should see the phrase **`Synchronised`** and evidence of data traffic, then click *OK* to exit.
+
+Next, let's click the *Settings icon*. Here we can access some of the basic options including: preferred fiat currency, appearance, node list and data paths. I'm going to leave these all alone for now. Once again, we suggest you take a good look through the options. When you're finished making your adjustments, click *OK*.
 
 
 ### ACQUIRING FUNDS
