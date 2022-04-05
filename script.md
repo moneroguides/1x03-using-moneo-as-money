@@ -28,10 +28,6 @@ In this video, we'll be using **Feather wallet on Linux**.  Grab the software on
 If you've been following this series from the beginning, please download and verify the wallet for your OS now. If you've just joined us and feel confused, please start with the first video in our series: *Importing Public Keys and Verifying Hashes*.
 
 
-
-
-
-
 ### CONNECTING TO THE MONERO NETWORK
 
 Windows users will be ready to connect right after installing Feather
@@ -48,9 +44,6 @@ Linux users will likely need to grant permission for either the appimage or exec
 When Feather starts for the first time you will be greeted by the welcome screen with connection options.  Here is where you will choose the Monero node that your wallet will eventually connect to. 
 
 Ready to get going?  Let's dive right in!
-
-
-### INITIALISING YOUR WALLET
 
 After following all the steps in the last video, you should be able to choose the *Select node manually* option
 
