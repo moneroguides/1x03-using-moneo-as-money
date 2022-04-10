@@ -223,7 +223,7 @@ Another way of achieving this is by creating additional accounts.
 
 If we once again turn our attention to the *bottom toolbar* we will see an icon next to the node status. If we click on this, a new window will open with the **Accounts Management Tool**. You may create as many accounts as you like as these are simply additional sub-addesses which are grouped with a specific label. 
 
-Be warned, this a wallet feature and if you restore your keys to a different wallet this information is not maintained.
+Be warned, names and labels are wallet feature and if you restore your keys to a different wallet this information is not maintained.
 
 ### SEEDS AND KEYS
 
