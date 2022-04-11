@@ -10,18 +10,18 @@
 
 ### INTRO
 
-Hello again adventurers. Welcome to the third video in the MoneroGuides video series:  **Using Monero as Money**
+Hello again adventurers. Welcome to the third video in the MoneroGuides video series:  **Using Monero as Money**.
 
-In this video we will be setting up a wallet, obtaining some juicy Monero and spending it like cash money
+In this video we will be setting up a wallet, obtaining some juicy Monero and spending it like cash money.
 
 So let's get going!
 
 
 ### CHOOSE YOUR WALLET
 
-According to the good folks at Moneropedia, a [wallet](https://www.getmonero.org/resources/moneropedia/wallet.html) holds the information needed to send and receive Monero privately and securely from the blockchain
+According to the good folks at Moneropedia, a [wallet](https://www.getmonero.org/resources/moneropedia/wallet.html) holds the information needed to send and receive Monero privately and securely from the blockchain.
 
-As with all software, you've got several great options to choose from. Picking the right wallet depends on several factors, starting with your choice of hardware and operating system. A nice list of available wallets can be found at [GetMonero](https://www.getmonero.org/downloads) website. 
+As with all software, you've got several great options to choose from. Picking the right wallet depends on several factors, starting with your choice of hardware and operating system. A nice list of available wallets can be found on the [GetMonero](https://www.getmonero.org/downloads) website. 
 
 In this video, we'll be using **Feather wallet on Linux**.  Grab the software on their [official site](https://featherwallet.org/download/) or via [Github](https://git.featherwallet.org/feather/feather)
 
@@ -41,9 +41,9 @@ Linux users will likely need to grant permission for either the appimage or exec
 - *Tab* to complete the line
 - Hit *Enter* to run
 
-When Feather starts for the first time you will be greeted by the welcome screen with connection options.  Here is where you will choose the Monero node that your wallet will eventually connect to. 
+When Feather starts for the first time you'll be greeted by the welcome screen with connection options.  Here is where you will choose the Monero node that your wallet will eventually connect to. 
 
-Ready to get going?  Let's dive right in!
+Ready to get going?  Let's dive in!
 
 After following all the steps in the last video, you should be able to choose the *Select node manually* option
 
@@ -72,7 +72,7 @@ As mentioned in the second video in this series, connecting to the Monero daemon
 - the node's host
 - ***your Internet Service Provider (ISP)***
 
-The tradeoff for privacy is speed.  Tor network traffic is slower and the initial synchronisation will take a great deal longer over Tor.  That said, the default setting is to use Tor in order to keep your Monero activities and IP address private.
+The tradeoff for privacy is speed.  Tor network traffic is slower and the initial synchronisation will take a great deal longer.  That said, the default setting is to use Tor in order to keep your Monero activities and IP address private.
 
 Choose *Configure manually* and then *Route all traffic over Tor*
 
@@ -85,9 +85,9 @@ Now that we've configured our network settings it's time to move on to generatin
 
 To continue we're going to select *Create new wallet* and then click *Next*.
 
-As we hit *Next*, Feather randomly generates a list of 14 words known as a seed phrase. Similarly to the PGP standard, both private keys and public keys have been generated during this time. The seed phrase is an encoded copy of our new private keys. This seed phrase is based on the Bitcoin Improvement Proposal (BIP), which aimed to enable storing private keys in a more user-friendly way.
+Once we hit *Next*, Feather randomly generates a list of 14 words known as a seed phrase. Similar to the PGP standard, both private keys and public keys have been generated during this process. The seed phrase is an encoded copy of our new private keys. This seed phrase is based on the Bitcoin Improvement Proposal (BIP), which aimed to enable storing private keys in a more user-friendly way.
 
-Opposed to the more common 25 word phrase used for Monero keys, this 14 word format enables the automatic storage of another important piece of information, the **restore height**. 
+Unlike the more common 25 word phrase used for Monero keys, this 14 word format enables the automatic storage of another important piece of information, the **restore height**. 
 
 The restore height is a record of when your key pair was created. This is important for when you want to restore your keys to a new wallet. For more information on the seed scheme used by Feather, please take a look at the [documentation](https://docs.featherwallet.org/guides/seed-scheme).
 
@@ -104,7 +104,7 @@ Once that's done, select *Create/Open wallet*.
 
 ### INTRO TO FEATHER WALLET
 
-Feather is a lightweight client. Unlike the official Monero wallet, it doesn't come packaged with the Monero daemon. It has been built as a feature-rich alternative which can be run from any device, including small USB sticks.
+As the name suggests, Feather is a lightweight client. Unlike the official Monero wallet, it doesn't come packaged with the Monero daemon. It's been built as a feature-rich alternative which can be run from any device, including small USB sticks.
 
 For a full list of its features and a comparison table check out the Feather [documentation](https://docs.featherwallet.org/guides/features). We won't be delving into all the options now, so we urge you to do so after watching this video.
 
@@ -123,7 +123,7 @@ As you can see our current balance is `0`, this means that we don't own any outp
 
 Let's change that.
 
-There are two dominant methods for acquiring Monero, they are mining and trading. For the purpose of this video we will be trading fiat money for Monero using a service called [LocalMonero](https://localmonero.co). There are of course many other ways to trade, if you're interested in exploring some of them check out the GetMonero [Merchants](https://www.getmonero.org/community/merchants/) page.
+There are two dominant methods for acquiring Monero: mining and trading. For the purpose of this video we'll be trading fiat money for Monero using a service called [LocalMonero](https://localmonero.co). There are of course many other ways to trade, if you're interested in exploring some of them check out the GetMonero [Merchants](https://www.getmonero.org/community/merchants/) page.
 
 We are going to access LocalMonero using Tor. We encourage you to do the same. If you don't already have the Tor browser on your machine please download it now. Remember, make sure you [verify your downloads](https://support.torproject.org/tbb/how-to-verify-signature/).
 
@@ -135,15 +135,11 @@ At present there are two different types of address used in the Monero ecosystem
 
 It's possible to generate many sub addresses. This is great for increasing anonymity and generally speaking it's good practice to use a different sub-address for each sender. Let's generate a sub-address now using the *Create new address* button.
 
-If we right-click on this new address we have a few options, one of which is *Edit label*. I'm going to select this option and enter: 
-
-`localmonero-`
-
-followed by the user name of the trader whom we will deal with. 
+If we right-click on this new address we have a few options, one of which is *Edit label*. I'm going to select this option and enter `localmonero-` followed by the user name of the trader we will be dealing with. 
 
 Now when Monero is sent to this address Feather will add **`localmonero-`** to the description, making it simple to identify where the funds have come from. 
 
-This is as far as we go in this video. When you have completed your trade and have funds available in your account, please move onto the next section.
+This is as far as we go in this video. When you've completed your trade and have funds available in your account, you can go ahead and move onto the next section.
 
 
 ### MONERO TRANSACTIONS
