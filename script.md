@@ -30,16 +30,14 @@ If you've been following this series from the beginning, please download and ver
 
 ### CONNECTING TO THE MONERO NETWORK
 
-Windows users will be ready to connect right after installing Feather
-
-Linux users will likely need to grant permission for either the appimage or executable as follows:
+While Windows users will be ready to connect right after installing Feather, Linux users will likely need to grant permission for either the appimage or executable as follows:
 
 - Open a terminal window and change directory to the folder containing the file
 - Type `sudo chmod +x f`, then use *Tab* to complete the line
 
 Now you can double click on the program as you normally would.
 
-When Feather starts for the first time you'll be greeted by the welcome screen with connection options.  Here is where you will choose the Monero node that your wallet will eventually connect to. 
+When Feather starts for the first time you'll be greeted by the welcome screen with connection options.  Here's where you'll choose the Monero node that your wallet will eventually connect to. 
 
 Ready to get going?  Let's dive in!
 
@@ -47,11 +45,11 @@ After following all the steps in the last video, you should be able to choose th
 
 By default your localhost IP address is filled in, along with the default port for Monero [RPC's](https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc)
 
-Since we will be using our wallet software on the same machine as the  node, we can leave everything on the default settings for now
+Since we'll be using our wallet software on the same machine as the  node, we can leave everything on the default settings for now
 
-If you are using a different computer on the same network, you will need to select the local IP address attributed to the machine hosting the node. This will commonly start with **192.168** and can be found in your network settings. 
+If you are using a different computer on the same network, you'll need to select the local IP address attributed to the machine hosting the node. This will commonly start with **192.168** and can be found in your network settings. 
 
-To connect to the Monero daemon, you will need to edit the firewall rules on the machine hosting your node. The default port for RPC's is `18081`.
+To connect to the Monero daemon, you'll need to edit the firewall rules on the machine hosting your node. The default port for RPC's is `18081`.
 
 Follow the instructions from our second video *Setting up your own Node*, for all the steps.  You don't need to edit the firewall rules on your router yet.
 
@@ -158,15 +156,15 @@ Inputs consist of one or more owned output. As owned outputs have fixed values, 
 
 For regular transactions there will always be at least three outputs: the amounts to be transferred, a miners fee and a term called **change**.
 
-Change is the remaining Monero after deductions have been made for the specified outputs and miner fee. Even if there is no remainder, there will still be an **output with a value of `0`**. This is to make all transactions on the Monero blockchain indistinguishable.
+Change is the remaining Monero after deductions have been made for the specified outputs and miner fee. Even if there's no remainder, there will still be an **output with a value of `0`**. This is to make all transactions on the Monero blockchain indistinguishable.
 
-Monero is a privacy-preserving protocol, which means all of this information is encoded and obfuscated. If you are interested in more details please visit the GetMonero [library](https://www.getmonero.org/library/).
+Monero is a privacy-preserving protocol, which means all of this information is encoded and obfuscated. If you're interested in more details please visit the GetMonero [library](https://www.getmonero.org/library/).
 
 ### MAKING A PURCHASE
 
 Now that we have some funds, let's spend them! After all, ***Monero Means Money***.
 
-Today, we're going to be buying a VPN subscription for Mullvad from a [proxystore by dys2p](https://digitalgoods.proxysto.re/). Buying a VPN subscription with Monero is a great idea as not only will your IP address be obfuscated, but also your identity if your choose the right service.
+Today, we're going to be buying a VPN subscription for Mullvad from a [proxystore by dys2p](https://digitalgoods.proxysto.re/). Buying a VPN subscription with Monero is a great idea as not only will your IP address be obfuscated, but also your identity if you choose the right service.
 
 Once again, we'll be accessing this site via the Tor browser.
 
@@ -185,7 +183,7 @@ Once the transaction has been confirmed on the blockchain, the proxystore's web 
 
 ### TRANSACTION IDs AND PAYMENT CONFIRMATION
 
-You may come across an issue with a vendor where your purchase is not made available. It is in this case which you need to be able to prove that you made the transaction.
+You may come across an issue with a vendor where your purchase is not made available. It's in this case which you need to be able to prove that you made the transaction.
 
 The vendor will most likely ask for a **payment ID** and because Monero is a privacy protocol you will also need to provide a **transaction key**, also known as an **outproof signature**.
 
@@ -203,7 +201,7 @@ You may have noticed that your balance has been equal to zero for some time afte
 
 Presently all outputs from a transaction are locked for a total of ten blocks after their initial confirmation. This is built into the protocol and is required to ensure security and stability.
 
-This means that any change you may be owed will be remain unavailable for approximately twenty minutes after your transaction. This is one of the major differences between fiat money and Monero and is something that developers hope to remove.
+This means that any change you may be owed will be unavailable for approximately twenty minutes after your transaction. This is one of the major differences between fiat money and Monero and is something that developers hope to remove.
 
 If you plan to make multiple transactions in quick succession it is advisable to either use the **pay to many function** that can be found under the *Tools* tab or, you generate multiple outputs.
 
@@ -215,13 +213,13 @@ Upon confirming the transaction you will see the history logged to the wallet fi
 
 Another way of achieving this is by creating additional accounts.
 
-If we once again turn our attention to the *bottom toolbar* we will see an icon next to the node status. If we click on this, a new window will open with the **Accounts Management Tool**. You may create as many accounts as you like as these are simply additional sub-addesses which are grouped with a specific label. 
+If we once again turn our attention to the *bottom toolbar* we will see an icon next to the node status. If we click on this, a new window will open with the **Accounts Management Tool**. You can create as many accounts as you like as these are simply additional sub-addesses which are grouped with a specific label. 
 
-Be warned, names and labels are wallet feature and if you restore your keys to a different wallet this information is not maintained.
+Be warned though, names and labels are wallet feature and if you restore your keys to a different wallet this information is not maintained.
 
 ### SEEDS AND KEYS
 
-As we have already discovered your seed phrase is an incredibly important thing to keep safe a secure. We also know that Feather is unique to other wallets as it records seed phrases in 14 words.
+As we have already discovered your seed phrase is an incredibly important thing to keep safe and secure. We also know that Feather is unique when compared to other wallets as it records seed phrases in 14 words.
 
 What if we wanted to restore these keys to a different wallet?
 
@@ -239,7 +237,7 @@ This feature exists because unlike protocols which are not private by design, th
 
 ### CONCLUSION
 
-In this video we have covered just the foundational aspects of using Monero as money and how to interact with Feather.
+In this video we've only covered the most fundamental aspects of using Monero as money and how to interact with Feather.
 
 Nevertheless, we hope you've learnt a lot and will now take the time to expand your knowledge and experience.
 
