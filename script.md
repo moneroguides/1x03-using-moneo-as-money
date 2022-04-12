@@ -37,9 +37,8 @@ Linux users will likely need to grant permission for either the appimage or exec
 - Open a terminal window and change directory to the folder containing the file
 - Type `sudo chmod +x f`
 - *Tab* to complete the line
-- Type `./f` 
-- *Tab* to complete the line
-- Hit *Enter* to run
+
+Now you can double click on the program as you normally would.
 
 When Feather starts for the first time you'll be greeted by the welcome screen with connection options.  Here is where you will choose the Monero node that your wallet will eventually connect to. 
 
