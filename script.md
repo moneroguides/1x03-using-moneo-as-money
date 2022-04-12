@@ -35,7 +35,7 @@ Windows users will be ready to connect right after installing Feather
 Linux users will likely need to grant permission for either the appimage or executable as follows:
 
 - Open a terminal window and change directory to the folder containing the file
-- Type `sudo chmod +x f` follwed by a space, then use *Tab* to complete the line
+- Type `sudo chmod +x f`, then use *Tab* to complete the line
 
 Now you can double click on the program as you normally would.
 
