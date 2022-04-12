@@ -10,7 +10,7 @@
 
 ### INTRO
 
-Hello again adventurers. Welcome to the third video in the MoneroGuides video series:  **Using Monero as Money**.
+Hello again adventurers. Welcome to the third video in this series:  **Using Monero as Money**.
 
 In this video we will be setting up a wallet, obtaining some juicy Monero and spending it like cash money.
 
