@@ -127,7 +127,7 @@ We're going to search for local buyers who accept cash via mail or in person. Th
 
 Before we go any further, we will need a destination address for the other party to transfer funds. To generate an address we need to go back to Feather and click on the **Receive** tab.
 
-At present there are two different types of address used in the Monero ecosystem. Primary addresses, which begin with the number `4` and sub-addresses which begin with the number `8`. These addresses are derived from your keys and cannot be used by anyone else.
+At present there are two dominant types of address used in the Monero ecosystem. Primary addresses, which begin with the number `4` and sub-addresses which begin with the number `8`. These addresses are derived from your keys and cannot be used by anyone else.
 
 It's possible to generate many sub addresses. This is great for increasing anonymity and generally speaking it's good practice to use a different sub-address for each sender. Let's generate a sub-address now using the *Create new address* button.
 
