@@ -1,6 +1,6 @@
 # Getting to Grips with Monero - Using Monero as Money
 
-## PREREQUISITES
+## Prerequisites:
 
 * GPG (Linux)
 * Kleopatra / gpg4win (Windows)
