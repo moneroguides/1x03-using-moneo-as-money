@@ -242,3 +242,5 @@ In this video we've only covered the most fundamental aspects of using Monero as
 Nevertheless, we hope you've learnt a lot and will now take the time to expand your knowledge and experience.
 
 Anyway, that's all for this video, thank you for watching and peace be with you privacy fans.
+
+~moneroguides
