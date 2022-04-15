@@ -1,0 +1,43 @@
+Prerequisites:
+
+    GPG (Linux)
+    Kleopatra / gpg4win (Windows)
+    Local Monero Node (optional)
+
+.....................................................................
+
+0:00 INTRO
+0:18 CHOOSE YOUR WALLET 
+1:13 CONNECTING TO THE MONERO NETWORK
+3:35 NETWORK PRIVACY OPTIONS
+5:01 GENERATING YOUR SEED PHRASE
+5:37 INTRO TO FEATHER WALLET
+6:56 ACQUIRING FUNDS
+8:11 MONERO TRANSACTIONS
+9:29 MAKING A PURCHASE
+11:20 TRANSACTION IDs AND PAYMENT CONFIRMATION
+14:57 SEEDS AND KEYS
+16:58 CONCLUSION
+
+.....................................................................
+
+sudo chmod +x
+
+.....................................................................
+
+Monero Wallets - https://www.getmonero.org/resources/moneropedia/wallet.html
+Official Feather Wallet site - https://featherwallet.org/download/
+Official Feather Wallet Github - https://git.featherwallet.org/feather/feather
+Monero RPC - https://monerodocs.org/interacting/monero-wallet-rpc-reference/#rpc
+Fether Wallet seed scheme - https://docs.featherwallet.org/guides/seed-scheme
+Feather Wallet Features - https://docs.featherwallet.org/guides/features
+Official Localmonero site - https://localmonero.co/
+Getmonero Merchants page - https://www.getmonero.org/community/merchants/
+How to verify Tor browser download - https://support.torproject.org/tbb/how-to-verify-signature/
+GetMonero library - https://www.getmonero.org/library/
+Proxystore by dys2p - https://digitalgoods.proxysto.re/
+
+.....................................................................
+
+All contents of this video are valid on release, please keep in mind that future updates of P2Pool may mean that some steps are no longer required.
+If enough of these changes occur a new video will be released.
