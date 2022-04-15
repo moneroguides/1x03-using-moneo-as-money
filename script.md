@@ -1,4 +1,4 @@
-# Getting to Grips with Monero - Using monero as Money
+# Getting to Grips with Monero - Using Monero as Money
 
 ## PREREQUISITES
 
