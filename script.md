@@ -231,7 +231,7 @@ Seed phrases are not the only way to restore access to your keys. You can also d
 
 To view our keys, once again select *Wallet* and then *Keys*. You will notice that there are 5 keys in total, each of which serves a special function. The ones we're interested in are the **Secret spend key** and **Secret view key**. These keys, together with the primary address are equivalent to the seed phrase.
 
-With just the primary address, restore height and view key, it is possible to create something called a **View Only wallet**. This kind of wallet enbles you and other parties the ability to view the history and current funds attributed to your keys.
+With just the primary address, restore height and view key, it is possible to create something called a **View Only wallet**. This kind of wallet enables you and other parties the ability to view the history and current funds attributed to your keys.
 
 This feature exists because unlike protocols which are not private by design, there is no other way to share this information. This is practical for many reasons including the ability to provide financial records and to pay your taxes. 
 
