@@ -1,0 +1,936 @@
+0:00:05.009,0:00:11.012
+Hello again adventurers. Welcome to the third
+video in this series: **Using Monero as Money**.
+
+0:00:11.012,0:00:15.840
+In this video we will be setting up a wallet,
+obtaining some juicy Monero and spending it
+
+0:00:15.840,0:00:17.410
+like cash money.
+
+0:00:17.410,0:00:18.509
+So let's get going!
+
+0:00:24.021,0:00:29.550
+According to the good folks at Moneropedia,
+a wallet holds the information needed to send
+
+0:00:29.550,0:00:33.377
+and receive Monero privately and securely
+from the blockchain.
+
+0:00:33.377,0:00:37.890
+As with all software, you've got several great
+options to choose from.
+
+0:00:37.890,0:00:43.926
+Picking the right wallet depends on several
+factors, starting with your choice of hardware and operating system.
+
+0:00:43.926,0:00:49.329
+A nice list of available
+wallets can be found on the GetMonero website.
+
+0:00:49.329,0:00:54.699
+In this video, we'll be using **Feather wallet
+on Linux**. Grab the software on their official
+
+0:00:54.699,0:00:57.019
+site or via Github
+
+0:00:57.019,0:01:00.780
+If you've been following this series from
+the beginning, please download and verify
+
+0:01:00.780,0:01:03.129
+the wallet for your OS now.
+
+0:01:03.129,0:01:08.420
+If you've just joined us and feel confused,
+please start with the first video in our series:
+
+0:01:08.420,0:01:11.440
+*Importing Public Keys and Verifying Hashes*.
+
+0:01:16.551,0:01:21.700
+While Windows users will be ready to connect
+right after installing Feather, Linux users
+
+0:01:21.700,0:01:27.531
+will likely need to grant permission for either
+the appimage or executable as follows:
+
+0:01:27.531,0:01:32.570
+Open a terminal window and change directory
+to the folder containing the file
+
+0:01:32.570,0:01:39.746
+Type `sudo chmod +x f`, then use *Tab* to
+complete the line
+
+0:01:40.468,0:01:44.298
+Now you can double click on the program as
+you normally would.
+
+0:01:44.298,0:01:49.548
+When Feather starts for the first time you'll
+be greeted by the welcome screen with connection options.
+
+0:01:50.309,0:01:54.922
+Here's where you'll choose the Monero node
+that your wallet will eventually connect to.
+
+0:01:54.922,0:01:58.186
+Ready to get going? Let's dive in!
+
+0:01:58.797,0:02:02.537
+After following all the steps in the last
+video, you should be able to choose the 
+
+0:02:02.537,0:02:04.619
+*Select node manually* option
+
+0:02:04.915,0:02:08.803
+By default your localhost IP address is filled
+in, along with the 
+
+0:02:08.803,0:02:11.546
+default port for Monero RPC's
+
+0:02:11.879,0:02:15.939
+Since we'll be using our wallet software on
+the same machine as the node, we can leave
+
+0:02:15.939,0:02:19.200
+everything on the default settings for now
+
+0:02:19.200,0:02:23.690
+If you are using a different computer on the
+same network, you'll need to select the local
+
+0:02:23.690,0:02:27.239
+IP address attributed to the machine hosting
+the node.
+
+0:02:27.239,0:02:33.250
+This will commonly start with **192.168**
+and can be found in your network settings.
+
+0:02:33.250,0:02:37.230
+To connect to the Monero daemon, you'll need
+to edit the firewall rules on the machine
+
+0:02:37.230,0:02:43.620
+hosting your node. The default port for RPC's
+is `18081`.
+
+0:02:43.620,0:02:49.441
+Follow the instructions from our second video
+*Setting up your own Node*, for all the steps.
+
+0:02:49.441,0:02:52.650
+You don't need to edit the firewall rules
+on your router yet.
+
+0:02:52.650,0:02:58.050
+If you aren't currently hosting your own node,
+please select the *Auto connect* option. This
+
+0:02:58.050,0:03:02.782
+will instruct Feather to connect you to any
+one of its preselected nodes.
+
+0:03:02.782,0:03:07.413
+After selecting the appropriate connection
+method click *Next*
+
+0:03:12.961,0:03:16.980
+Now we're going to select how Feather will
+route its network traffic.
+
+0:03:16.980,0:03:21.819
+The default settings will tell Feather to
+use Tor for its functions. However if you
+
+0:03:21.819,0:03:27.040
+are using the *Auto connect option* Feather
+will initially connect to a node using traditional
+
+0:03:27.040,0:03:28.769
+clearnet methods.
+
+0:03:28.769,0:03:33.489
+As mentioned in the second video in this series,
+connecting to the Monero daemon over the clearnet
+
+0:03:33.489,0:03:37.040
+will reveal potentially sensitive information
+to both:
+
+0:03:37.040,0:03:38.439
+the node's host and
+
+0:03:38.439,0:03:41.159
+***your Internet Service Provider (ISP)***
+
+0:03:41.159,0:03:47.549
+The tradeoff for privacy is speed. Tor network
+traffic is slower and the initial synchronisation
+
+0:03:47.549,0:03:49.150
+will take a great deal longer.
+
+0:03:49.464,0:03:54.519
+That said, the default setting is to use Tor
+in order to keep your Monero activities and
+
+0:03:54.519,0:03:56.553
+IP address private.
+
+0:03:57.237,0:04:02.689
+Choose *Configure manually* and then *Route
+all traffic over Tor*
+
+0:04:02.689,0:04:07.411
+If you are connecting to your own local node
+you may use the default settings without any worry.
+
+0:04:07.819,0:04:14.019
+However, selecting *Route all traffic over
+Tor* can always be used as a fail-safe option.
+
+0:04:14.019,0:04:16.410
+This is what we will be doing here today.
+
+0:04:16.410,0:04:20.590
+Now that we've configured our network settings
+it's time to move on to generating our seed
+
+0:04:20.590,0:04:23.626
+phrase. Go ahead and select *Next*.
+
+0:04:29.717,0:04:35.115
+To continue we're going to select *Create
+new wallet* and then click *Next*.
+
+0:04:35.911,0:04:42.887
+Once we hit *Next*, Feather randomly generates
+a list of 14 words known as a seed phrase.
+
+0:04:42.887,0:04:48.670
+Similar to the PGP standard, both private
+keys and public keys have been generated during
+
+0:04:48.670,0:04:54.637
+this process. The seed phrase is an encoded
+copy of our new private keys.
+
+0:04:54.637,0:05:01.440
+This seed phrase is based on the Bitcoin Improvement
+Proposal (BIP), which aimed to enable storing
+
+0:05:01.440,0:05:04.537
+private keys in a more user-friendly way.
+
+0:05:04.537,0:05:11.060
+Unlike the more common 25 word phrase used
+for Monero keys, this 14 word format enables
+
+0:05:11.060,0:05:16.672
+the automatic storage of another important
+piece of information, the **restore height**.
+
+0:05:17.338,0:05:22.450
+The restore height is a record of when your
+key pair was created. This is important for
+
+0:05:22.450,0:05:25.870
+when you want to restore your keys to a new
+wallet.
+
+0:05:25.870,0:05:31.870
+For more information on the seed scheme used
+by Feather, please take a look at the documentation.
+
+0:05:31.870,0:05:36.280
+You can regenerate this phrase as many times
+as you like and when you're happy you should
+
+0:05:36.280,0:05:42.250
+make a record. We suggest you take the time
+to write these words down on a piece of paper.
+
+0:05:42.250,0:05:47.680
+Be careful to note the order and make it legible.
+If you ever lose access to your hardware and
+
+0:05:47.680,0:05:53.940
+have written your seed phrase down incorrectly,
+your funds may well be lost.
+
+0:05:53.940,0:05:56.643
+Once you have recorded your seed phrase click
+*Next*. 
+
+0:05:57.402,0:05:59.140
+Feather will offer you the same warning
+
+0:05:59.140,0:06:02.638
+and if you're happy to continue, click *I
+understand*.
+
+0:06:02.989,0:06:08.170
+We are now prompted to name our wallet and
+choose the save location. I'm going to choose
+
+0:06:08.170,0:06:14.960
+the encrypted removable disk I set up earlier.
+Once again, when we're happy click *Next*.
+
+0:06:14.960,0:06:20.350
+Now we need to choose a password to encrypt
+our private key. This should be a strong password
+
+0:06:20.350,0:06:24.640
+regardless of whether someone else has access
+to our hardware.
+
+0:06:24.640,0:06:29.043
+I'm going to be using the password generator
+bundled with KeepassXC, 
+
+0:06:29.043,0:06:31.330
+a password management program.
+
+0:06:31.330,0:06:34.793
+Once that's done, select *Create/Open wallet*.
+
+0:06:40.878,0:06:44.716
+As the name suggests, Feather is a lightweight
+client.
+
+0:06:44.716,0:06:50.312
+Unlike the official Monero wallet, it doesn't
+come packaged with the Monero daemon.
+
+0:06:50.312,0:06:55.000
+It's been built as a feature-rich alternative
+which can be run from any device, 
+
+0:06:55.000,0:06:57.270
+including small USB sticks.
+
+0:06:57.270,0:07:02.348
+For a full list of its features and a comparison
+table check out the Feather documentation.
+
+0:07:02.755,0:07:06.599
+We won't be delving into all the options now,
+so we urge you to do so 
+
+0:07:06.599,0:07:08.450
+after watching this video.
+
+0:07:08.746,0:07:13.900
+To start with we're going to turn our attention
+to the tool bar at the bottom of the window.
+
+0:07:13.900,0:07:17.762
+On the right, we can see our current balance
+and a green circle.
+
+0:07:18.687,0:07:20.368
+Click *the green circle*.
+
+0:07:20.719,0:07:26.110
+This window shows us the node we are connected
+to, the synchronisation status and some traffic
+
+0:07:26.110,0:07:30.930
+information. If all is well you should see
+the phrase **`Synchronised`** and evidence
+
+0:07:30.930,0:07:34.842
+of data traffic, then click *OK* to exit.
+
+0:07:35.230,0:07:41.230
+Next, let's click the *Settings icon*. Here
+we can access some of the basic options including:
+
+0:07:41.230,0:07:46.950
+preferred fiat currency, appearance, node
+list and data paths.
+
+0:07:46.950,0:07:49.635
+I'm going to leave these all alone for now.
+
+0:07:50.000,0:07:52.280
+Once again, we suggest you take a good look
+
+0:07:52.280,0:07:56.835
+through the options. When you're finished
+making your adjustments, click *OK*.
+
+0:08:03.604,0:08:09.400
+As you can see our current balance is `0`,
+this means that we don't own any outputs on
+
+0:08:09.400,0:08:11.229
+the Monero blockchain.
+
+0:08:11.229,0:08:13.138
+Let's change that.
+
+0:08:13.138,0:08:19.060
+There are two dominant methods for acquiring
+Monero: mining and trading. For the purpose
+
+0:08:19.060,0:08:25.420
+of this video we'll be trading fiat money
+for Monero using a service called LocalMonero.
+
+0:08:25.420,0:08:29.910
+There are of course many other ways to trade,
+if you're interested in exploring some of
+
+0:08:29.910,0:08:32.990
+them check out the GetMonero Merchants page.
+
+0:08:33.896,0:08:39.700
+We are going to access LocalMonero using Tor.
+We encourage you to do the same.
+
+0:08:39.700,0:08:44.747
+If you don't already have the Tor browser
+on your machine please download it now. 
+
+0:08:44.747,0:08:47.940
+Remember, make sure you verify your downloads.
+
+0:08:47.940,0:08:53.440
+We're going to search for local buyers who
+accept cash via mail or in person. This may
+
+0:08:53.440,0:08:58.220
+not suit everyone, however we want to maintain
+our anonymity by trading with someone who
+
+0:08:58.220,0:09:00.800
+is not interested in our identity.
+
+0:09:00.800,0:09:05.310
+You will of course need an account before
+trading, so click on the *Rocket ship icon*
+
+0:09:05.310,0:09:08.097
+to learn how the whole process works.
+
+0:09:08.097,0:09:13.810
+Before we go any further, we will need a destination
+address for the other party to transfer funds.
+
+0:09:13.810,0:09:19.120
+To generate an address we need to go back
+to Feather and click on the **Receive** tab.
+
+0:09:19.120,0:09:24.154
+At present there are two dominant types of
+address used in the Monero ecosystem. 
+
+0:09:24.154,0:09:30.353
+Primary addresses, which begin with the number `4`
+and sub-addresses which begin with the number `8`.
+
+0:09:31.219,0:09:36.090
+These addresses are derived from your keys
+and cannot be used by anyone else.
+
+0:09:36.090,0:09:41.760
+It's possible to generate many sub addresses.
+This is great for increasing anonymity and
+
+0:09:41.760,0:09:47.349
+generally speaking it's good practice to use
+a different sub-address for each sender.
+
+0:09:47.349,0:09:51.770
+Let's generate a sub-address now using the
+*Create new address* button.
+
+0:09:51.770,0:09:57.440
+If we right-click on this new address we have
+a few options, one of which is *Edit label*.
+
+0:09:57.440,0:10:03.070
+I'm going to select this option and enter
+`localmonero-` followed by the user name of
+
+0:10:03.070,0:10:05.190
+the trader we will be dealing with.
+
+0:10:05.190,0:10:11.640
+Now when Monero is sent to this address Feather
+will add **`localmonero-`** to the description,
+
+0:10:11.640,0:10:15.520
+making it simple to identify where the funds
+have come from.
+
+0:10:15.520,0:10:19.580
+This is as far as we go in this video. When
+you've completed your trade and have funds
+
+0:10:19.580,0:10:23.475
+available in your account, you can go ahead
+and move onto the next section.
+
+0:10:28.949,0:10:34.130
+As you can see, we managed to complete our
+first successful trade. We hope you were able
+
+0:10:34.130,0:10:36.600
+to do the same without trouble.
+
+0:10:36.600,0:10:43.910
+To continue, let's add a new tab to the toolbar.
+To do so, select *View* and then *Show Coins*.
+
+0:10:45.000,0:10:50.190
+The *Coins* tab lists all the unspent outputs
+which are owned by your keys.
+
+0:10:50.190,0:10:55.230
+If we right-click on this output and select
+*Details* we can get all sorts of interesting
+
+0:10:55.230,0:11:00.851
+information. Here we can see the address it
+was sent to, its current status, the amount
+
+0:11:00.851,0:11:03.351
+sent and blockchain height.
+
+0:11:04.220,0:11:08.750
+If we now head over to the *Receive* tab,
+we can see that the address we created before
+
+0:11:08.750,0:11:13.960
+the trade has now been removed. This is a
+handy feature built into Feather to prevent
+
+0:11:13.960,0:11:15.410
+address reuse.
+
+0:11:16.113,0:11:21.712
+Before we go any further, it's best that we
+outline the basics of a Monero transaction.
+
+0:11:21.712,0:11:24.805
+Let's first define the term **owned output**.
+
+0:11:25.582,0:11:30.570
+Described simply, an owned output is a record
+on the Monero blockchain which attributes
+
+0:11:30.570,0:11:33.750
+your keys with a specified amount of Monero.
+
+0:11:33.953,0:11:39.339
+Owned outputs can have any value, as long
+as it is less than the total amount of Monero
+
+0:11:39.339,0:11:40.779
+in circulation.
+
+0:11:40.779,0:11:46.770
+Now that we have this definition, we can more
+easily understand transactions. Every regular
+
+0:11:46.770,0:11:51.830
+transaction on the Monero blockchain is made
+up of inputs and outputs. This diagram helps
+
+0:11:51.830,0:11:53.831
+to illustrate that.
+
+0:11:54.330,0:12:00.610
+Inputs consist of one or more owned output.
+As owned outputs have fixed values, any number
+
+0:12:00.610,0:12:05.180
+of them may be used as inputs to meet the
+required outputs.
+
+0:12:05.180,0:12:10.230
+For regular transactions there will always
+be at least three outputs: the amounts to
+
+0:12:10.230,0:12:15.894
+be transferred, a miners fee and a term called
+**change**.
+
+0:12:15.894,0:12:21.910
+Change is the remaining Monero after deductions
+have been made for the specified outputs and
+
+0:12:21.910,0:12:22.910
+miner fee.
+
+0:12:23.594,0:12:28.620
+Even if there's no remainder, there will still
+be an **output with a value of `0`**.
+
+0:12:28.620,0:12:33.180
+This is to make all transactions on the Monero
+blockchain indistinguishable.
+
+0:12:33.180,0:12:39.853
+Monero is a privacy-preserving protocol, which
+means all of this information is encoded and obfuscated. 
+
+0:12:40.168,0:12:44.692
+If you're interested in more details
+please visit the GetMonero library.
+
+0:12:54.791,0:13:00.830
+Now that we have some funds, let's spend them!
+After all, ***Monero Means Money***.
+
+0:13:01.181,0:13:08.620
+Today, we're going to be buying a VPN subscription
+for Mullvad from a proxystore by dys2p.
+
+0:13:08.620,0:13:13.271
+Buying a VPN subscription with Monero is a
+great idea as not only will your IP address
+
+0:13:13.271,0:13:18.560
+be obfuscated, but also your identity if you
+choose the right service.
+
+0:13:18.560,0:13:22.560
+Once again, we'll be accessing this site via
+the Tor browser.
+
+0:13:22.560,0:13:28.780
+This proxystore is pretty simple to use. First
+select your product, then your country, 
+
+0:13:28.780,0:13:32.289
+now solve the captcha and select *Order*.
+
+0:13:32.289,0:13:38.560
+Once your order is ready, select *Pay invoice*.
+This opens up a new window, which shows the
+
+0:13:38.560,0:13:42.230
+amount due and the address to send it to.
+
+0:13:42.230,0:13:47.390
+Now that we have these details we can head
+back to our wallet. Select the *Send* tab
+
+0:13:47.390,0:13:48.989
+and fill in the details.
+
+0:13:49.359,0:13:55.491
+Be sure to double-check the address and amount
+before selecting *Send* once more.
+
+0:13:55.491,0:14:02.290
+A new window will now open, let's select *Advanced*
+and have a look at what's going on. Here we
+
+0:14:02.290,0:14:05.630
+can see the inputs, outputs and fee.
+
+0:14:05.630,0:14:10.876
+If everything looks good, we can finalise
+the transaction by clicking *Send* once more.
+
+0:14:10.876,0:14:15.440
+Once the transaction has been confirmed on
+the blockchain, the proxystore's web page
+
+0:14:15.440,0:14:19.380
+will update and the voucher code will be made
+available.
+
+0:14:19.380,0:14:23.740
+The current average block time is around two
+minutes, so you shouldn't have to wait very
+
+0:14:23.740,0:14:24.736
+long at all.
+
+0:14:30.950,0:14:35.620
+You may come across an issue with a vendor
+where your purchase is not made available.
+
+0:14:35.620,0:14:40.490
+It's in this case which you need to be able
+to prove that you made the transaction.
+
+0:14:40.490,0:14:46.020
+The vendor will most likely ask for a **payment
+ID** and because Monero is a privacy protocol
+
+0:14:46.020,0:14:52.010
+you will also need to provide a **transaction
+key**, also known as an **outproof signature**.
+
+0:14:52.010,0:14:58.530
+Feather allows us to generate formatted outproofs
+rather simply. First navigate to the *History*
+
+0:14:58.530,0:15:05.089
+tab and then right-click on the transaction.
+Select *Create Tx Proof* and then *Prove payment
+
+0:15:05.089,0:15:06.533
+to an address*.
+
+0:15:06.533,0:15:12.814
+Next we can select *Get formatted proof*,
+which will then copy the required text to our clipboard.
+
+0:15:13.371,0:15:19.819
+We can verify this proof ourselves. Start
+by selecting *Tools* and then *Verify transaction proof*. 
+
+0:15:20.429,0:15:24.072
+We can then paste this information
+and select *Verify*.
+
+0:15:24.553,0:15:29.410
+Anyone with access to this transaction proof
+will be able to see both the receiving address
+
+0:15:29.410,0:15:31.638
+and the amount which was transferred.
+
+0:15:37.020,0:15:42.040
+You may have noticed that your balance has
+been equal to zero for some time after your
+
+0:15:42.040,0:15:44.568
+transaction. There is a good reason for this.
+
+0:15:44.568,0:15:49.300
+Presently all outputs from a transaction are
+locked for a total of ten blocks after their
+
+0:15:49.300,0:15:55.140
+initial confirmation. This is built into the
+protocol and is required to ensure security
+
+0:15:55.140,0:15:57.399
+and stability.
+
+0:15:57.399,0:16:02.200
+This means that any change you may be owed
+will be unavailable for approximately twenty
+
+0:16:02.200,0:16:04.740
+minutes after your transaction.
+
+0:16:04.740,0:16:09.399
+This is one of the major differences between
+fiat money and Monero and is something that
+
+0:16:09.399,0:16:12.250
+developers hope to remove.
+
+0:16:12.250,0:16:17.410
+If you plan to make multiple transactions
+in quick succession it is advisable to either
+
+0:16:17.410,0:16:23.300
+use the **pay to many function** that can
+be found under the *Tools* tab or, you generate
+
+0:16:23.300,0:16:24.766
+multiple outputs.
+
+0:16:26.430,0:16:31.480
+Let's navigate back to the *Coins* tab. If
+we right-click on the owned output we have
+
+0:16:31.480,0:16:34.080
+the option to *Sweep output*.
+
+0:16:34.080,0:16:40.350
+We can then select *Send to self* and specify
+the number of outputs. In this case I want
+
+0:16:40.350,0:16:46.080
+to seperate this into 5 outputs, which is
+equivilent to splitting a €100 note into
+
+0:16:46.080,0:16:48.056
+five €20 notes.
+
+0:16:48.777,0:16:53.200
+This is one of the only times you would use
+your primary address and Feather does this
+
+0:16:53.200,0:16:58.760
+automatically. It will now generate the specified
+number of outputs, with an equal amount of
+
+0:16:58.760,0:17:00.930
+Monero in each.
+
+0:17:00.930,0:17:05.980
+Upon confirming the transaction you will see
+the history logged to the wallet file. Once
+
+0:17:05.980,0:17:10.120
+the transaction has been confirmed on the
+blockchain the outputs will become visible
+
+0:17:10.120,0:17:12.707
+once again in the *Coins* tab.
+
+0:17:12.707,0:17:17.090
+Another way of achieving this is by creating
+additional accounts.
+
+0:17:17.090,0:17:21.770
+If we once again turn our attention to the
+*bottom toolbar* we will see an icon next
+
+0:17:21.770,0:17:23.549
+to the node status.
+
+0:17:23.549,0:17:29.210
+If we click on this, a new window will open
+with the **Accounts Management Tool**.
+
+0:17:29.210,0:17:33.650
+You can create as many accounts as you like
+as these are simply additional sub-addesses
+
+0:17:33.650,0:17:36.066
+which are grouped with a specific label.
+
+0:17:36.899,0:17:41.740
+Be warned though, names and labels are wallet
+features and if you restore your keys to a
+
+0:17:41.740,0:17:44.889
+different wallet this information is not maintained.
+
+0:17:50.123,0:17:56.284
+As we have already discovered your seed phrase
+is an incredibly important thing to keep safe and secure.
+
+0:17:56.802,0:18:00.670
+ We also know that Feather is unique
+when compared to other wallets as it records
+
+0:18:00.670,0:18:03.920
+seed phrases in 14 words.
+
+0:18:03.920,0:18:07.450
+What if we wanted to restore these keys to
+a different wallet?
+
+0:18:07.450,0:18:13.130
+To access the standard 25 word phrase and
+restore height we need to select *Wallet*
+
+0:18:13.130,0:18:16.170
+from the top toolbar and then *Seed*.
+
+0:18:16.170,0:18:20.430
+Once we've entered the password we will be
+presented with our seed phrase.
+
+0:18:20.430,0:18:26.240
+All we need to do is select *Show 25 word
+seed*. If you plan to make these keys available
+
+0:18:26.240,0:18:30.679
+in any other wallet, it would be good to write
+these down as well.
+
+0:18:30.679,0:18:33.610
+When you're finished, click *OK*.
+
+0:18:33.610,0:18:38.020
+Seed phrases are not the only way to restore
+access to your keys. You can also do it with
+
+0:18:38.020,0:18:43.100
+the keys themselves and interestingly you
+can provide wallets with limited privileges
+
+0:18:43.100,0:18:44.490
+this way.
+
+0:18:44.490,0:18:50.280
+To view our keys, once again select *Wallet*
+and then *Keys*. You will notice that there
+
+0:18:50.280,0:18:54.850
+are 5 keys in total, each of which serves
+a special function.
+
+0:18:54.850,0:19:00.410
+The ones we're interested in are the **Secret
+spend key** and **Secret view key**. These
+
+0:19:00.410,0:19:06.910
+keys, together with the primary address are
+equivalent to the seed phrase.
+
+0:19:06.910,0:19:12.230
+With just the primary address, restore height
+and view key, it is possible to create something
+
+0:19:12.230,0:19:14.700
+called a **View Only wallet**.
+
+0:19:14.700,0:19:19.240
+This kind of wallet enables you and other
+parties the ability to view the history and
+
+0:19:19.240,0:19:23.100
+current funds attributed to your keys.
+
+0:19:23.100,0:19:28.070
+This feature exists because unlike protocols
+which are not private by design, there is
+
+0:19:28.070,0:19:30.750
+no other way to share this information.
+
+0:19:30.750,0:19:35.630
+This is practical for many reasons including
+the ability to provide financial records and
+
+0:19:35.630,0:19:37.193
+to pay your taxes.
+
+0:19:42.501,0:19:46.980
+In this video we've only covered the most
+fundamental aspects of using Monero as money
+
+0:19:46.980,0:19:49.520
+and how to interact with Feather.
+
+0:19:49.520,0:19:53.650
+Nevertheless, we hope you've learnt a lot
+and will now take the time to expand your
+
+0:19:53.650,0:19:55.380
+knowledge and experience.
+
+0:19:55.380,0:20:01.350
+Anyway, that's all for this video, thank you
+for watching and peace be with you privacy fans.
+
+0:20:01.832,0:20:03.238
+~moneroguides
