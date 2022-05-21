@@ -81,9 +81,11 @@ Now that we've configured our network settings it's time to move on to generatin
 
 To continue we're going to select *Create new wallet* and then click *Next*.
 
-Once we hit *Next*, Feather randomly generates a list of 14 words known as a seed phrase. Similar to the PGP standard, both private keys and public keys have been generated during this process. The seed phrase is an encoded copy of our new private keys. This seed phrase is based on the Bitcoin Improvement Proposal (BIP), which aimed to enable storing private keys in a more user-friendly way.
+Once we hit *Next*, Feather randomly generates a list of 14 words known as a seed phrase. Similar to the PGP standard, both private keys and public keys have been generated during this process. This seed phrase is an encoded copy of our new keys and is based on the Bitcoin Improvement Proposal (BIP), which aimed to enable storing private keys in a more user-friendly way.
 
-Unlike the more common 25 word phrase used for Monero keys, this 14 word format enables the automatic storage of another important piece of information, the **restore height**. 
+This seed phrase can be considered analogous to a username and password and is how you access your funds on the Monero block chain.
+
+Unlike the more common 25 word phrase used for Monero keys, Feathers 14 word format enables the automatic storage of another important piece of information, the **restore height**. 
 
 The restore height is a record of when your key pair was created. This is important for when you want to restore your keys to a new wallet. For more information on the seed scheme used by Feather, please take a look at the [documentation](https://docs.featherwallet.org/guides/seed-scheme).
 
@@ -91,9 +93,9 @@ You can regenerate this phrase as many times as you like and when you're happy y
 
 Once you have recorded your seed phrase click *Next*. Feather will offer you the same warning and if you're happy to continue, click *I understand*.
 
-We are now prompted to name our wallet and choose the save location. I'm going to choose the encrypted removable disk I set up earlier. Once again, when we're happy click *Next*.
+The creation of a wallet file means we don't need to use and expose our seed phrase every time we want to access our funds. We are now prompted to name this file and choose the save location. I'm going to choose the encrypted removable disk I set up earlier. Once again, when we're happy click *Next*.
 
-Now we need to choose a password to encrypt our private key. This should be a strong password regardless of whether someone else has access to our hardware. I'm going to be using the password generator bundled with KeepassXC, a password management program.
+Now we need to choose a password to encrypt our wallet file. This should be a strong password regardless of whether someone else has access to our hardware. I'm going to be using the password generator bundled with KeepassXC, a password management program.
 
 Once that's done, select *Create/Open wallet*.
 
