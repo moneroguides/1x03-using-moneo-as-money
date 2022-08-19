@@ -91,6 +91,8 @@ The restore height is a record of when your key pair was created. This is import
 
 You can regenerate this phrase as many times as you like and when you're happy you should make a record. We suggest you take the time to write these words down on a piece of paper. Be careful to note the order and make it legible. If you ever lose access to your hardware and have written your seed phrase down incorrectly, your funds may well be lost.
 
+Anyone who has access to your seed phrase will have access to your funds! You have ben warned.
+
 Once you have recorded your seed phrase click *Next*. Feather will offer you the same warning and if you're happy to continue, click *I understand*.
 
 The creation of a wallet file means we don't need to use and expose our seed phrase every time we want to access our funds. We are now prompted to name this file and choose the save location. I'm going to choose the encrypted removable disk I set up earlier. Once again, when we're happy click *Next*.
