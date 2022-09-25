@@ -227,7 +227,9 @@ As we have already discovered your seed phrase is an incredibly important thing 
 
 What if we wanted to restore these keys to a different wallet?
 
-To access the standard 25 word phrase and restore height we need to select *Wallet* from the top toolbar and then *Seed*. Once we've entered the password we will be presented with our seed phrase. All we need to do is select *Show 25 word seed*. If you plan to make these keys available in any other wallet, it would be good to write these down as well.
+To access the standard 25 word phrase and restore height we need to select *Wallet* from the top toolbar and then *Seed*. Once we've entered the password we will be presented with our seed phrase. All we need to do is select *Show 25 word seed*. 
+
+If you plan to make these keys available in any other wallet, it would be good to write these down as well. After restoring your keys to a new wallet you might find that your balance is *zero*. In this case it's likely that you didn't enter the correct restore height, so make sure everything is accurate.
 
 When you're finished, click *OK*.
 
